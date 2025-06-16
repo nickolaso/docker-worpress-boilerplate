@@ -1,0 +1,1 @@
+Add a database file in this folder named dump.sql and uncomment the line under volumes in the database section.
