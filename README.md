@@ -1,7 +1,7 @@
 # docker-worpress-boilerplate
 Simple Docker Wordpress Example for starting new projects.  Includes HTTPS
 
-- Adding a domain name or using "http://localhost:8080"
+- Adding a domain name or using ["http://localhost:8080"]
 - Having a valid "HTTPS" certificate on the local development machine
 
 # Requirements
@@ -23,5 +23,5 @@ Simple Docker Wordpress Example for starting new projects.  Includes HTTPS
 
 ```
 cd docker-wordpress-boilerplate/nginx && mkcert -cert-file docker-worpress-boilerplate.crt -key-file docker-worpress-boilerplate.key 
-docker-worpress-boilerplate
+docker-worpress-boilerplate && mkcert install docker-worpress-boilerplate.key
 ```
